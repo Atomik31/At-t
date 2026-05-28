@@ -1,3 +1,5 @@
+![AT&T](att_logo.png)
+
 # AT&T — Détecteur de SPAM
 
 Projet réalisé dans le cadre du bloc 4 de la certification CDSD (Jedha).
