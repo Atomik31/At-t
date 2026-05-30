@@ -46,12 +46,23 @@ DistilBERT est le meilleur modèle. La baseline reste compétitive et largement 
 ```
 ATT/
 ├── data/
-│   └── raw/
-│       └── spam.csv
+│   ├── raw/
+│   │   └── spam.csv
+│   └── processed/
 ├── docs/
 │   └── 01-AT&T_spam_detector.ipynb   # Énoncé du projet
 ├── notebooks/
 │   └── att.ipynb                      # Notebook principal
+├── reports/
+│   └── figures/
+│       ├── 01_ham_spam_distribution.png
+│       ├── 02_word_count_distribution.png
+│       ├── 03_confusion_baseline.png
+│       ├── 04_confusion_textcnn.png
+│       ├── 05_confusion_distilbert.png
+│       └── 06_models_comparison.png
+├── src/
+│   └── export_figures.py
 └── README.md
 ```
 
