@@ -1,6 +1,6 @@
 ![AT&T](att_logo.png)
 
-# AT&T — Détecteur de SPAM
+# AT&T - Détecteur de SPAM
 
 Projet réalisé dans le cadre du bloc 4 de la certification CDSD (Jedha).
 
@@ -16,9 +16,9 @@ AT&T cherche à automatiser la détection de SMS indésirables pour protéger se
 
 Comparaison de trois approches par ordre croissant de complexité :
 
-1. **Baseline — TF-IDF + Régression Logistique** : référence classique, déjà très performante sur ce type de problème
+1. **Baseline - TF-IDF + Régression Logistique** : référence classique, déjà très performante sur ce type de problème
 2. **TextCNN from scratch** : réseau convolutif entraîné sur les données, avec embeddings appris et double kernel (3 et 5) pour capturer des patterns de longueurs différentes
-3. **Transfer Learning — DistilBERT** : fine-tuning d'un modèle pré-entraîné sur des milliards de tokens, adapté à la classification binaire
+3. **Transfer Learning - DistilBERT** : fine-tuning d'un modèle pré-entraîné sur des milliards de tokens, adapté à la classification binaire
 
 ---
 
@@ -36,8 +36,8 @@ DistilBERT est le meilleur modèle. La baseline reste compétitive et largement 
 
 ## Stack
 
-- Python — PyTorch, Transformers (HuggingFace), Scikit-learn
-- Dataset : 5 572 SMS (spam.csv — AT&T)
+- Python - PyTorch, Transformers (HuggingFace), Scikit-learn
+- Dataset : 5 572 SMS (spam.csv - AT&T)
 
 ---
 
@@ -68,4 +68,4 @@ ATT/
 
 ---
 
-Julien CHARLIER — [(Github : Atomik31)](https://github.com/Atomik31)
+Julien CHARLIER - [(Github : Atomik31)](https://github.com/Atomik31)
